@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    box-sizing: border-box;
+    box-shadow: 6px 0px 2px 2px rgb(70, 69, 69);
 
     .logo_img {
         height: 100%;
@@ -18,7 +20,7 @@
         height: 100%;
 
         button {
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             border: none;
             width: 5rem;
