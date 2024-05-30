@@ -1,0 +1,34 @@
+.out_border {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    .logo_img {
+        height: 100%;
+    }
+
+    .major_service_support {
+        flex: 1;
+        background-color: aqua;
+    }
+
+    .user_buttons {
+        height: 100%;
+
+        button {
+            font-size: 1.2rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: none;
+            width: 5rem;
+            height: 100%;
+            &:hover {
+                background-color: rgb(62, 104, 218);
+                color: white;
+            }
+        }
+
+        
+    }
+}
