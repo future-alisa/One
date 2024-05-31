@@ -12,7 +12,9 @@ export default function HomeTopPanel() {
               height={24}
               priority
             />
-            <div className={styles.major_service_support}></div>
+            <div className={styles.major_service_support}>
+
+            </div>
             <div className={styles.user_buttons}>
                 <button>登录</button>
                 <button>注册</button>
