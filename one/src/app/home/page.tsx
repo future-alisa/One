@@ -1,5 +1,5 @@
 import HomeTopPanel from '@/components/home-top-panel';
-import styles from './style.module.scss';
+import styles from './style.module.css';
 
 export default function HomePage() {
     return (
