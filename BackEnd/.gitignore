@@ -1,0 +1,68 @@
+# uv运行时和包缓存目录
+.uv/
+.venv/
+
+# Python通用忽略规则[citation:1][citation:2]
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 包构建和分发目录[citation:2]
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 环境变量文件[citation:2]
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 测试和覆盖率报告[citation:2]
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# 开发工具配置文件
+# Python包管理器目录[citation:2]
+__pypackages__/
+# IDE配置文件[citation:2]
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
