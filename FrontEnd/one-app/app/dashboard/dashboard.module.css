@@ -1,0 +1,36 @@
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+}
+.appListContainer {
+  display: flex;
+  height: 350px;
+  padding: 20px;
+  margin: 20px;
+  border-width: 2px;
+  border-color: gray;
+  border-radius: 15;
+}
+
+.focusEventListContainer {
+  flex: 1;
+  margin: 20px;
+  border-width: 2px;
+  border-color: gray;
+  border-radius: 15;
+  min-height: 300px;
+}
+
+.toolListContainer {
+  flex: 1;
+  margin: 20px;
+  border-width: 2px;
+  border-color: gray;
+  border-radius: 15;
+  min-height: 300px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
