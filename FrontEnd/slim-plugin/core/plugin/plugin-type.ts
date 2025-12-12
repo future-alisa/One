@@ -1,6 +1,9 @@
 export interface Plugin {
   id: string;
   name: string;
-  description: string;
+  version: string;
+  description?: string;
+  author?: string;
+  icon?: string;
   enabled: boolean;
 }

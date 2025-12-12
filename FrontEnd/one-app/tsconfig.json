@@ -19,7 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@plugins/*": ["./plugins/*"],
+      "slim-plugin": ["../slim-plugin/dist"]
     }
   },
   "include": [

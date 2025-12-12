@@ -33,7 +33,7 @@ export default function CustomIcon({
   imageProps = {},
 }: CustomIconProps) {
   return (
-    <Link href="/test" className={styles.iconContainer}>
+    <Link href={href} className={styles.iconContainer}>
       {iconType === "react-icon" ? (
         // 渲染 React Icon
         <IconComponent className={styles.icon} style={{ width, height }} />
@@ -48,7 +48,7 @@ export default function CustomIcon({
           {...imageProps}
         />
       )}
-      <span className={styles.label}>Ansible</span>
+      <span className={styles.label}>{label}</span>
     </Link>
   );
 }

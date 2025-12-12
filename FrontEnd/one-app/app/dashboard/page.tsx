@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div>
       <div className={styles.appListContainer}>
-        <CustomIcon IconComponent={TbBrandAnsible} />
+        <CustomIcon href="/container/ansible" IconComponent={TbBrandAnsible} />
       </div>
       <div className={styles.bottomContainer}>
         <div className={styles.toolListContainer}>自定义工具列表</div>

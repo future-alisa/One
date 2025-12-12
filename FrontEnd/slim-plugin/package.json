@@ -1,14 +1,22 @@
 {
   "name": "slim-plugin",
   "version": "1.0.0",
-  "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "main": "dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "type": "module",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
   "scripts": {
     "dev": "ts-node src/index.ts",
-    "build": "tsc",
+    "build": "tsc  && node scripts/build-cjs-mjs.js",
     "test": "echo \"Error: No test specified\" && exit 1",
     "prepublishOnly": "npm run build"
   },
@@ -18,7 +26,13 @@
   "description": "",
   "devDependencies": {
     "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   }
 }
